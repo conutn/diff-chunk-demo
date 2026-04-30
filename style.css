@@ -1,0 +1,120 @@
+html {
+    background-color: #FAFDFF;
+}
+.title {
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    color: black;
+}
+.minititle {
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+}
+.submit {
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    color: black;
+    border: 2px solid #3A3A3C;
+    border-radius: 5px;
+    width: 192px;
+    height: 62px;
+    line-height: 62px;
+    cursor: pointer;
+}
+#gen {
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    color: black;
+    border: 2px solid #3A3A3C;
+    border-radius: 5px;
+    width: 288px;
+    height: 62px;
+    line-height: 62px;
+    cursor: pointer;
+    display: none;
+}
+#container {
+    margin: auto;
+    display: flex;
+    width: 1000px;
+}
+#modelselect {
+    margin: auto auto 20px auto;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    color: black;
+    border: 2px solid #3A3A3C;
+    border-radius: 5px;
+}
+#modeldesc {
+    margin: auto auto 20px 0px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    width: 400px;
+    text-align: justify;
+}
+.btn-container {
+    margin: 0 auto auto auto;
+    padding: 10px 30px 10px 30px;
+    background-color: #FCFEFF;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.result {
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    color: black;
+    width: 400px;
+}
+.input {
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+    padding: 20px;
+    width: 350px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-size: 27px;
+}
+input {
+    margin: 10px auto 10px auto;
+    padding: 0px 5px 0px 5px;
+    width: 340px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    font-size: 27px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+#attribution {
+        margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    color: black;
+    width: 400px;
+}
