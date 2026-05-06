@@ -3,24 +3,26 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <script src="main.js" defer></script>
     <link rel="stylesheet" href="style.css">
-    <title>Differentiable Chunking Demo</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.3.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.3.1/core.js"></script>
 </head>
+</html>
 <body>
     <h1 class="title" style="font-size: 80px; font-weight: 400;">Differentiable Chunking Demo</h1>
     <div id="container">
         <div class="btn-container">
             <div class="minititle">Transformer Test</div>
             <div class="input"><input id="token1" type="text" placeholder="Input a sentence..."/></div>
-            <div class="submit" onclick="submit_transformer()">Submit</div>
+            <div class="submit" id="submit-btn">Submit</div>
             <div id="results" class="result"></div>
             <div id="loading" class="result"></div>
-            <div id="gen" onclick="gen_more()">Generate more</div>
+            <div id="gen">Generate more</div>
+            <script type="py" src="./main.py" config="./pyscript.json"></script>
         </div>
         <div class="btn-container">
             <div class="minititle">Model Selection</div>
-            <select name="models" id="modelselect" onchange="changedesc()">
+            <select name="models" id="modelselect">
                 <option value="standard256">Standard Transformer (length 256)</option>
                 <option value="standard1024">Standard Transformer (length 1024)</option>
                 <option value="chunked256">Chunked Transformer (length 256)</option>
@@ -30,5 +32,6 @@
         </div>
     </div>
     <div id="attribution">The text these models were trained on was taken from Wikipedia under <a href=https://creativecommons.org/licenses/by-sa/4.0/legalcode.en>CC-BY-SA 4.0</a>. Credit to Wikipedia Contributors.</div>
+    <script type="py" src="./main.py" config="./pyscript.json"></script>
 </body>
 <html>
