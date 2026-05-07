@@ -17,8 +17,8 @@ def change_desc(event):
     if (select_val == "standard1024"): desc_div.innerText = "Unimplemented."
     if (select_val == "chunked1024"): desc_div.innerText = "Unimplemented."
 
-MODEL_URL = "https://drive.usercontent.google.com/download?id=1ylaP2uK77r-TBMv3WzKCS6aIUP18z_GD&export=download&confirm=t"
-DATA_URL = "https://drive.usercontent.google.com/download?id=1tcP8rB-jKPVl6jH6G9cdbf-fX7VD1NUH&export=download&confirm=t"
+MODEL_URL = "https://github.com/conutn/diff-chunk-demo/releases/download/Model-v0.0.0/basic1024.onnx"
+DATA_URL = "https://github.com/conutn/diff-chunk-demo/releases/download/Model-v0.0.0/basic1024.onnx.data"
 
 async def fetch_bytes(url):
     try:
